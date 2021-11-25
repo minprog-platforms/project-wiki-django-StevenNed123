@@ -29,3 +29,11 @@ When the user clicks on the new page link they will go the New Page page:
 ### Edit Page design
 When the user clicks edit page at the bottom of a wiki entry they will be directed towards the edit page for that wiki:
 ![edit_page](images/edit_page.png)
+
+### Search Page design
+When the user clicks on the search page it shows the user all the matching wiki entries:
+![search_page](images/search.png)
+
+### Error Page design
+When the user tries to visit a non existing page they will be taken to the error screen:
+![error_page](images/error.png)
