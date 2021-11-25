@@ -32,7 +32,7 @@ When the user clicks edit page at the bottom of a wiki entry they will be direct
 
 ### Search Page design
 When the user clicks on the search page it shows the user all the matching wiki entries:
-![search_page](images/search.png)
+![search_page](images/search_page.png)
 
 ### Error Page design
 When the user tries to visit a non existing page they will be taken to the error screen:
