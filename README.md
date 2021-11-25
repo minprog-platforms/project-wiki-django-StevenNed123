@@ -14,20 +14,20 @@ The changes would be:
 - Making the Home, Create New Page and Random page larger to make it easier to spot for users that these options are available
 - Creating more space at the bottom of the search bar, so potential searches do not obscure the Home and Random page options
 
-The design would for the indexpage would look something like this:
 ### Homepage design
+The design would for the indexpage would look something like this:
 ![homepage](images/homepage.png)
 
-The pages of the wiki entries will be simple with a header at the top and under the header the contents of the page:
 ### Wiki Entry design
+The pages of the wiki entries will be simple with a header at the top and under the header the contents of the page:
 ![entrypage](images/wiki_entry.png)
 
-When the user click on the new page link they will go the New Page page:
 ### New Page design
+When the user click on the new page link they will go the New Page page:
 ![newpage](images/new_page.png)
 
-When the user clicks edit page at the bottom of a wiki entry they will be redirected towards the edit page for that wiki:
 ### Edit Page design
+When the user clicks edit page at the bottom of a wiki entry they will be redirected towards the edit page for that wiki:
 ![edit_page](images/edit_page.png)
 
 
