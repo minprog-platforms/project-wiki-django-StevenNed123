@@ -23,9 +23,9 @@ The pages of the wiki entries will be simple with a header at the top and under 
 ![entrypage](images/wiki_entry.png)
 
 ### New Page design
-When the user click on the new page link they will go the New Page page:
+When the user clicks on the new page link they will go the New Page page:
 ![newpage](images/new_page.png)
 
 ### Edit Page design
-When the user clicks edit page at the bottom of a wiki entry they will be redirected towards the edit page for that wiki:
+When the user clicks edit page at the bottom of a wiki entry they will be directed towards the edit page for that wiki:
 ![edit_page](images/edit_page.png)
