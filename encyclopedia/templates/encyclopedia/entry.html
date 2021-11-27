@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+{{name}}
+{% endblock %}
+
+{% block random %}
+    <a href="{{ random_page }}">random page</a>
+{% endblock %}
+
+{% block body %}
+    <div>{{contents | safe}}</div>
+
+    <div><a href="{{ name }}/edit">Edit this page</a> </div>
+
+{% endblock %}

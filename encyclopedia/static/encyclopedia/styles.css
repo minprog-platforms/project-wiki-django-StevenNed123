@@ -12,13 +12,22 @@ h1 {
     padding-top: 20px;
 }
 
-textarea {
-    height: 90vh;
-    width: 80%;
+.contentsbox {
+    height: 30vh;
+    width: 90%;
 }
+
+.titlebox {
+    height: 5vh;
+    width: 50%;
+} 
 
 .main {
     padding: 10px;
+}
+
+.alert {
+    width:40%;
 }
 
 .search {

@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Search term: {{search_term}}
+{% endblock %}
+
+{% block random %}
+    <a href="{{ random_page }}">random page</a>
+{% endblock %}
+
+{% block body %}
+    <h1>Search term: {{search_term}}</h1> 
+    <ul>
+        {% for entry in entries %}
+        {% if search_term in entry %}
+            <li>
+                <a href="wiki/{{ entry }}">{{ entry }}</a>
+            </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+{% endblock %}

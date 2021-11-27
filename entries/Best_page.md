@@ -1,0 +1,1 @@
+This page might be the best page you will ever see, if you are looking for the second best page you will every see, see: [Second best page](Best_page2).

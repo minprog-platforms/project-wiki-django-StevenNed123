@@ -1,0 +1,32 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Create new page
+{% endblock %}
+
+{% block random %}
+    <a href="wiki/{{ random_page }}">random page</a>
+{% endblock %}
+
+{% block body %}
+<h1>Create new page</h1>
+
+<form action="{% url 'new_page' %}" method="post">
+
+    {% csrf_token %}
+
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-danger" role="alert">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    {{ form }}
+    
+    <div><input type="submit" value="add page"></div>
+</form>
+
+{% endblock %}
+

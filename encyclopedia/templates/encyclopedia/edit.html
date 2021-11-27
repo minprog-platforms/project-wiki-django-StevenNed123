@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Create new page
+{% endblock %}
+
+{% block random %}
+    <a href="wiki/{{ random_page }}">random page</a>
+{% endblock %}
+
+{% block body %}
+<h1>Edit {{ name }} entry</h1>
+
+<form action="edit" method="post">
+
+    {% csrf_token %}
+
+    <textarea name=contents class="contentsbox", placeholder="type in the contents">{{ contents }}</textarea>
+
+    <div><input type="submit" value="edit page"></div>
+</form>
+
+{% endblock %}
